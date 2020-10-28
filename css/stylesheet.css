@@ -9,12 +9,12 @@ header{
 
 header h1{
   font-size:50px;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 header p{
   font-size: 20px;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
 }
 h2 {
   font-size: 30px;
@@ -111,7 +111,7 @@ footer{
   color: white;
 }
 .responsive {
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
 }
 
@@ -119,5 +119,10 @@ footer{
   .innhold {
     margin: 0;
   }
+}
 
+/* Source used to stop the page sliding to the right: https://stackoverflow.com/
+questions/44667161/page-moving-left-and-right-while-in-mobile-browser*/
+html {
+  overflow-x: hidden;
 }
