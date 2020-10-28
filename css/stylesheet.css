@@ -35,7 +35,7 @@ header p{
 }
 
 body {
-  
+
   background-color: rgb(210, 211, 212);
 }
 
@@ -83,4 +83,10 @@ footer{
 }
 .responsive {
   max-width: 100%;
-  height: auto;
+  height: auto;}
+
+ @media only screen and (max-width: 1000px) {
+   .innhold{
+     margin: 0px;
+   }
+  }
