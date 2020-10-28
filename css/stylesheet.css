@@ -1,5 +1,5 @@
 header{
-  background-color: yellow;
+  background-color: rgba(22, 15, 62, 1);
   text-align: center;
   padding: 20px;
   height: 35vh;
@@ -7,12 +7,14 @@ header{
 
 header h1{
   font-size:50px;
+  color: white;
 }
 header p{
   font-size: 20px;
+  color: white;
 }
 .menu{
-  background-color: blue;
+  background-color: rgb(196, 131, 26);
   text-align: center;
   font-size: 25px;
   height: 50px;
@@ -27,16 +29,48 @@ header p{
   padding: 30px;
   display: inline;
 }
-
+body{
+  background-color: rgb(210, 211, 212);
+}
 .innhold{
   margin-left: 150px;
   margin-right: 150px;
-}
-.section1box{
-  height: 200px;
-  background-color: red;
+  margin-top: 50px;
+  margin-bottom: 75px;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+.innhold h1{
+  color: rgba(22, 15, 62, 1);
+  text-decoration: underline;
+  text-decoration-color: rgb(196, 131, 26);
+  font-size: 3em;
+}
+.innhold p{
+  font-size: 1.3em;
+}
+
+.section1box{
+  height: 200px;
+  background-color: rgb(196, 131, 26);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img{
+  border-style: solid;
+  color: rgb(196, 131, 26);
+  border-width: 10px;
+}
+
+footer{
+  background-color: rgba(22, 15, 62, 1);
+  height: 75px;
+  padding: 30px;
+  text-align: center;
+  color: white;
 }
