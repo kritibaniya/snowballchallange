@@ -1,5 +1,8 @@
 /* source used to find the colour code: https://htmlcolorcodes.com/color-picker/*/
-
+*{
+  margin: 0px;
+  padding: 0px;
+}
 header{
   background-color: rgba(22, 15, 62, 1);
   text-align: center;
