@@ -27,6 +27,14 @@ header p{
   padding: 30px;
   display: inline;
 }
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-size: 20px;
+}
 
 .innhold{
   margin-left: 150px;
@@ -39,4 +47,9 @@ header p{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
