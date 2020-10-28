@@ -1,8 +1,10 @@
+/* source used to find the colour code: https://htmlcolorcodes.com/color-picker/*/
+
 header{
   background-color: rgba(22, 15, 62, 1);
   text-align: center;
   padding: 20px;
-  height: 35vh;
+  height: 18%;
 }
 
 header h1{
@@ -12,6 +14,9 @@ header h1{
 header p{
   font-size: 20px;
   color: white;
+}
+h2 {
+  font-size: 30px;
 }
 .menu{
   background-color: rgb(196, 131, 26);
@@ -34,8 +39,31 @@ header p{
   color: #fff;
 }
 
+@media (max-width: 800px) {
+  .menu {
+    height: auto;
+    padding: 15px;
+  }
+  .menu ul {
+    width: 100%;
+    height: 35vh;
+    top: 10px;
+    left: 0;
+    text-align: center center;
+  }
+  .menu ul li {
+    display: block;
+    padding: 0px;
+  }
+  .menu ul li a{
+    font-size: 25px;
+    margin: 0px;
+  }
+}
+
+
 body {
-  
+
   background-color: rgb(210, 211, 212);
 }
 
@@ -84,3 +112,11 @@ footer{
 .responsive {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 750px) {
+  .innhold {
+    margin: 0;
+  }
+
+}
