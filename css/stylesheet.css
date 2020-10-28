@@ -29,9 +29,16 @@ header p{
   padding: 30px;
   display: inline;
 }
-body{
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-size: 20px;
   background-color: rgb(210, 211, 212);
 }
+
 .innhold{
   margin-left: 150px;
   margin-right: 150px;
@@ -74,3 +81,6 @@ footer{
   text-align: center;
   color: white;
 }
+.responsive {
+  max-width: 100%;
+  height: auto;
