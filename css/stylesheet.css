@@ -112,6 +112,9 @@ footer{
 .responsive {
   max-width: 100%;
   height: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-right: 0;
 }
 
 @media (max-width: 750px) {
